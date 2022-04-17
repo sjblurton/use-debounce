@@ -50,6 +50,14 @@
       "limit": "10 KB"
     }
   ],
+  "keywords": [
+    "react",
+    "hooks",
+    "custom",
+    "typescript",
+    "test",
+    "testing"
+  ],
   "devDependencies": {
     "@size-limit/preset-small-lib": "^7.0.8",
     "@testing-library/react-hooks": "^8.0.0",
