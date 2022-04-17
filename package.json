@@ -33,7 +33,11 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "use-debounce",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjblurton/use-debounce"
+  },
+  "name": "@sjblurton/use-debounce",
   "author": "Simon Blurton",
   "module": "dist/use-debounce.esm.js",
   "size-limit": [
@@ -48,6 +52,8 @@
   ],
   "devDependencies": {
     "@size-limit/preset-small-lib": "^7.0.8",
+    "@testing-library/react-hooks": "^8.0.0",
+    "@types/jest": "^27.4.1",
     "@types/react": "^18.0.5",
     "@types/react-dom": "^18.0.1",
     "husky": "^7.0.4",
@@ -57,5 +63,8 @@
     "tsdx": "^0.14.1",
     "tslib": "^2.3.1",
     "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@sjblurton/use-timeout": "sjblurton/use-timeout"
   }
 }
